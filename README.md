@@ -1,7 +1,10 @@
 # ECE 148 Spring 2025 Team 11 Final Project
 ## "Balloon Animal Detection"
 
-<img src="assets/carwithballoons.jpg" alt="car with balloon animals" style="width: 40vw;">
+<img src="assets/jsoe.png" alt="jacobs_school_of_engineering" style="width:50vw;">
+<img src="assets/carwithballoons.jpg" alt="car with balloon animals" style="width: 50vw;">
+
+---
 
 [Final Presentation](https://docs.google.com/presentation/d/1dCoKgqVfZQMhyggTEogI8tUQDtrG1OyyUPlr59H-XTo/edit?usp=sharing)
 
@@ -18,13 +21,12 @@ We have built a car that autonomously recognizes randomly placed target balloon 
 - LiDAR integration for more refined movement
 
 ## Members
-Jose Arreguin - Mathematics: Computer Science
-
-Kenny Huh - Mechanical Engineering
-
-Leonardo Hartl - Mechanical Engineering
-
-Nicolas Ventos - Aerospace Engineering
+| Name | Major | Year |
+|------|-------|------|
+|Jose Arreguin|Mathematics:Computer Science|SP25|
+|Kenny Huh|Mechanical Engineering|SP25|
+|Leonardo Hartl|Mechanical Engineering|SP25|
+|Nicolas Ventos|Aerospace Engineering|SP25|
 
 # Design Components
 
@@ -121,9 +123,9 @@ build_ros2
 
 # Gallery
 
-<img src="assets/closeup.jpg" alt="close_up_of_car" style="width: 35vw;">
+<img src="assets/closeup.jpg" alt="close_up_of_car" style="width: 50vw;">
 
-<img src="assets/leftside.jpg" alt="left_side_of_car" style="width: 35vw;">
+<img src="assets/leftside.jpg" alt="left_side_of_car" style="width: 50vw;">
 
-<img src="assets/leo.jpg" alt="lab_picture" style="width: 35vw;">
+<img src="assets/leo.jpg" alt="lab_picture" style="width: 50vw;">
 
