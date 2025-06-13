@@ -1,5 +1,5 @@
 # ECE 148 Spring 2025 Team 11 Final Project
-## "Balloon Animals"
+## "Balloon Animal Car"
 
 <img src="assets/carwithballoons.jpg" alt="car with balloon animals" style="width: 40vw;">
 
@@ -65,13 +65,13 @@ We created our own package named ucsd_robocar_balloon2_pkg that contains our mai
 #### `speaker_node.py`
 - *subscribes* to the *balloon_detections* topic, which using the recieved detected animal, plays the corresponding audio via the aplay command:
 ```
-		try: 
-			subprocess.run(
-				['aplay', '-D', 'plughw:2,0', sound_path],
-				check=True
-			)
-		except subprocess.CalledProcessError as e:
-			self.get_logger().error(f"Failed to play audio: {e}")
+try: 
+  subprocess.run(
+    ['aplay', '-D', 'plughw:2,0', sound_path],
+    check=True
+  )
+except subprocess.CalledProcessError as e:
+  self.get_logger().error(f"Failed to play audio: {e}")
 ```
 
 #### `vesc_node.py`
@@ -97,3 +97,12 @@ build_ros2
 - *subscribes* to the *lane_guidance_control* and switches its state depending on whether it recieves a **pause** or a **resume**. 
 - In the pause state it does not send commands to the vesc. 
 - In resume state it works as normal.
+
+# Gallery
+
+<img src="assets/closeup.jpg" alt="close_up_of_car" style="width: 35vw;">
+
+<img src="assets/leftside.jpg" alt="left_side_of_car" style="width: 35vw;">
+
+<img src="assets/leo.jpg" alt="lab_picture" style="width: 35vw;">
+
