@@ -1,18 +1,9 @@
 # ECE 148 Spring 2025 Team 11 Final Project
-## "Balloon Animal Car"
+## "Balloon Animal Detection"
 
 <img src="assets/carwithballoons.jpg" alt="car with balloon animals" style="width: 40vw;">
 
 [Final Presentation](https://docs.google.com/presentation/d/1dCoKgqVfZQMhyggTEogI8tUQDtrG1OyyUPlr59H-XTo/edit?usp=sharing)
-
-## Members
-Jose Arreguin -- Mathematics: Computer Science
-
-Kenny Huh -- Mechanical Engineering
-
-Leonardo Hartl -- Mechanical Engineering
-
-Nicolas Ventos -- Aerospace Engineering
 
 ## Project Description
 We have built a car that autonomously recognizes randomly placed target balloon animals. It responds differently depending on the identified animal, all while following a designated path in a ***controlled and optimal manner***.
@@ -26,6 +17,14 @@ We have built a car that autonomously recognizes randomly placed target balloon 
 ### Nice to have
 - LiDAR integration for more refined movement
 
+## Members
+Jose Arreguin - Mathematics: Computer Science
+
+Kenny Huh - Mechanical Engineering
+
+Leonardo Hartl - Mechanical Engineering
+
+Nicolas Ventos - Aerospace Engineering
 
 # Design Components
 
@@ -47,6 +46,10 @@ We have built a car that autonomously recognizes randomly placed target balloon 
 **Camera Extension Design**
 
 <img src="assets/camerabase.png" alt="camera_extension_design" style="width: 35vw;">
+
+## Wiring
+
+<img src="assets/wiring.png" alt="wiring_diagram_for_car" style="width: 50vw;">
 
 # Software
 
@@ -79,7 +82,7 @@ except subprocess.CalledProcessError as e:
 - It then *publishes* **pause** to the *lane_guidance_control* which switches the state of the lane guidance node to halt sending values to the VESC.
 - Then it controls the car in a specified manner:
 
-<img src="assets/paths.png" alt="paths_for_each_animal" style="width: 25vw;">
+<img src="assets/paths.png" alt="paths_for_each_animal" style="width: 50vw;">
 
 - Finally it *publishes* **resume** to the *lane_guidance_control* topic which reverts the lane guidance node to a normal state.
 
@@ -97,6 +100,24 @@ build_ros2
 - *subscribes* to the *lane_guidance_control* and switches its state depending on whether it recieves a **pause** or a **resume**. 
 - In the pause state it does not send commands to the vesc. 
 - In resume state it works as normal.
+
+## Course Deliverables
+
+**[Outside Lane Following](https://youtu.be/QxAHrUlSgUk?si=JCECQAlf1tRa1Ojq)**
+
+**[Inside Lane Following](https://youtu.be/GkR7rY1FQCk?si=l_rVWvA1lEhHj7bw)**
+
+**[GPS Navigation](https://youtu.be/qnhPcpjn2ac)**
+
+**[DonkeyCar 3 Laps EBUII](https://youtube.com/shorts/WQX3FQiDqeY)**
+
+**[Model with Roboflow](https://youtube.com/shorts/SliKKk7VkHU?si=tkCcVwuUGS_EaLJ8)**
+
+**[Model with Luxonis SDK](https://youtu.be/QeoocV0fp0k?si=ojEsEoA7VQYCrGZg)**
+
+# Gantt Chart
+
+<img src="assets/gantt.jpg" alt="gantt_chart_final" style="width: 85vw;">
 
 # Gallery
 
