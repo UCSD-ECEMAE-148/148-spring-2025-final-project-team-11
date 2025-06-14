@@ -28,6 +28,10 @@ We have built a car that autonomously recognizes randomly placed target balloon 
 |Leonardo Hartl|Mechanical Engineering|SP25|
 |Nicolas Ventos|Aerospace Engineering|SP25|
 
+# Demo Video
+
+<iframe style="width: 50vw;" src="https://youtube.com/shorts/k4bPpsPWAw4?feature=share" frameborder="0" allowfullscreen></iframe>
+
 # Design Components
 
 | Component | Designer |
