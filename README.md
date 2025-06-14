@@ -30,7 +30,7 @@ We have built a car that autonomously recognizes randomly placed target balloon 
 
 # Demo Video
 
-<iframe style="width: 50vw;" src="https://www.youtube.com/embed/k4bPpsPWAw4" frameborder="0" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/k4bPpsPWAw4/hqdefault.jpg)](https://www.youtube.com/watch?v=k4bPpsPWAw4)
 
 # Design Components
 
